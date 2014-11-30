@@ -1,0 +1,48 @@
+
+.border {
+    border-right: solid 3px lightgoldenrodyellow;
+    border-left: solid 3px lightgoldenrodyellow;
+}
+
+.header {
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-top: solid 3px lightgoldenrodyellow;
+    border-bottom: solid 3px lightgoldenrodyellow;
+    background-color: #b2dba1;
+    font-family: serif;
+    font-size: 40px;
+    alignment: center;
+    font-weight: bold;
+    color: darkblue;
+    text-align: center;
+}
+
+ul {
+    font-weight: bold;
+}
+
+.footer {
+    padding: 20px;
+    margin-top: 10px;
+    font-size: 12px;
+    text-align: center;
+    border-top: solid 3px lightgoldenrodyellow;
+    border-bottom: solid 3px lightgoldenrodyellow;
+    font-weight: bolder;
+}
+
+.maincontent {
+    text-align: center;
+    padding: 50px;
+}
+
+body {
+    background-color: #c4e3f3;
+}
+
+h1 {
+    font-family: Consolas, serif;
+    font-weight: bolder;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Angular SPA Application</title>
+    <script src="scripts/angular.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="scripts/app.js"></script>
+    <link href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <link href="bower_components/bootstrap/dist/css/bootstrap-theme.css" rel="stylesheet">
+    <link href="styles/style.css" rel="stylesheet">
+</head>
+<body ng-app="jit" class="container-fluid">
+
+<div class="col-sm-12 header">
+    <h1>Angular Play</h1>
+
+</div>
+
+<div class="col-sm-2 border">
+    <h3>Menu</h3>
+    <ul>
+        <li><a href="#/home">Home</a></li>
+        <li><a href="#/customers">View Customers</a></li>
+        <li><a href="#/findcustomer">Find Customer</a></li>
+        <li><a href="#/email">Email Customer</a></li>
+    </ul>
+</div>
+
+
+<div class="col-sm-10 maincontent" ng-view>
+
+</div>
+
+
+<div class="col-sm-12 footer">
+    All Rights Reserved. Geeks and Techies Private Limited LLC. New Jersey. United States of America.
+</div>
+
+</body>
+</html>
