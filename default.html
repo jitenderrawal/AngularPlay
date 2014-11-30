@@ -9,24 +9,63 @@
     <link href="bower_components/bootstrap/dist/css/bootstrap-theme.css" rel="stylesheet">
     <style>
         .border {
-            border: dotted 5px black;
 
+
+        }
+
+        .title {
+            padding: 20px;
+            margin-bottom: 10px;
+            margin-top: 10px;
+            border: solid 2px green;
+            background-color: antiquewhite;
+            font-family: serif;
+            font-size: 40px;
+            alignment: center;
+            font-weight: bold;
+            color: #e38d13;
+            align-content: center;
+        }
+
+        ul {
+            font-weight: bold;
+        }
+
+        .footer {
+            padding: 20px;
+            margin-top: 10px;
+            font-size: 12px;
         }
     </style>
 </head>
 <body ng-app="jit" class="container-fluid">
 
-<div class="col-sm-2 border">
-    Side Bar
-    <ul>
-        <li>Customer</li>
+<div class="col-sm-12 title">
+    <h1>JS Play</h1>
 
+</div>
+
+<div class="col-sm-2 border">
+    <h3>Menu</h3>
+    <ul>
+        <li>View all Customers</li>
+        <li>Find Customer</li>
+        <li>Email Customer</li>
     </ul>
 </div>
+
+
 <div class="col-sm-10 border">
-    Main Content
+    <h2>Main Content</h2>
+
+    
 </div>
 
+
+<div class="col-sm-12 footer">
+    All Rights Reserved
+
+</div>
 
 </body>
 </html>
