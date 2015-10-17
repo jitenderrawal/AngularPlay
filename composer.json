@@ -1,0 +1,11 @@
+{
+    "name": "jit/jit",
+    "description": "jit",
+    "authors": [
+        {
+            "name": "Jitender Rawal",
+            "email": "JitenderRAwal@gmail.com"
+        }
+    ],
+    "require": {}
+}
